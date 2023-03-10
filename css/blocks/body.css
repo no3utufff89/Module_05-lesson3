@@ -1,0 +1,27 @@
+.body {
+    padding-top: 48px;
+    padding-bottom: 25px;
+    border: 1px solid var(--main-color);
+    border-bottom-color: var(--light-gray);
+}
+
+.body__controls {
+    justify-content: center;
+    align-items: center;
+}
+
+.body__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 36px;
+}
+.body__add-btn {
+    border: 1px solid var(--light-gray);
+    border-radius: 15px;
+    width: 140px;
+    height: 44px;
+    font-weight: 700;
+font-size: 14px;
+line-height: 13px;
+}

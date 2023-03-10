@@ -1,0 +1,116 @@
+/* @import './fonts.css'; */
+
+@import './normalize.css';
+@import './colors.css';
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+.row {
+    display: flex;
+}
+.align-c {
+align-items: center;
+}
+body {
+    min-width: 320px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    font-family: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.page-wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.main-container {
+    max-width: 320px;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-10%);
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.todo-block {
+    display: grid;
+    grid-template-rows: 50px max-content auto;
+    height: 600px;
+}
+.btn {
+    background-color: transparent;
+    border: none;
+}
+@media (max-width:1200px){
+    .container {
+        max-width: 904px;
+        
+    }
+}

@@ -1,0 +1,52 @@
+.lists-block {
+    border: 1px solid var(--main-color);
+    border-top: none;
+    padding: 15px;
+    overflow-y: auto;
+    background-color: var(--dark-bg);
+    color: var(--light-font-color);
+}
+.lists-block::-webkit-scrollbar {
+    width: 0;
+    
+}
+.list-btn {
+    font-size: 0;
+    background-image: url(../../img/icon_delete.svg);
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+.add-btn {
+    font-size: 0;
+    background-image: url(../../img/icon_add.svg);
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+
+.list-menu {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: var(--light-gray);
+
+    padding: 5px;
+    row-gap: 10px;
+}
+.list-menu__element {
+    color: var(--main-green);
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.list-controls {
+    column-gap: 25px;
+}

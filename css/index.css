@@ -1,0 +1,6 @@
+@import './default.css';
+@import './blocks/header.css';
+@import './blocks/menu.css';
+@import './blocks/body.css';
+@import './blocks/lists.css';
+@import './blocks/list-element.css';
